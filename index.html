@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="form__name">
+          <label for="name__input">Enter your first name</label>
+          <input
+            id="name__input"
+            type="text"
+            placeholder="name"
+            value="abdulloh"
+          />
+        </div>
+
+        <div class="form__surname">
+          <label for="input__surname">Enter your surname</label>
+          <input
+            id="input__surname"
+            type="text"
+            placeholder="surname"
+            value="rasulov"
+          />
+        </div>
+
+        <div class="form__phone">
+          <label for="input__phone"> phone number</label>
+          <input
+            id="input__phone"
+            type="tel"
+            value="+998"
+            placeholder="number"
+          />
+        </div>
+
+        <div class="form__region">
+          <label for="input__region">Enter your region</label>
+          <input
+            id="input__region"
+            type="text"
+            value="tashkent"
+            placeholder="region"
+          />
+        </div>
+
+        <div class="form__budget">
+          <label for="input__budget">Enter your budget</label>
+          <input
+            id="input__budget"
+            type="text"
+            placeholder="budget"
+            value="120$"
+          />
+        </div>
+        <button class="form__btn">Submit</button>
+      </form>
+
+      <table class="table">
+        <thead>
+          <tr class="table__row">
+            <th>
+              <select name="" id="fname">
+                <option value="all">firstname</option>
+                <option value="ascending">a-z</option>
+                <option value="descending">z-a</option>
+              </select>
+            </th>
+            <th>
+              <select name="" id="sname">
+                <option value="all">surname</option>
+                <option value="ascending">a-z</option>
+                <option value="descending">z-a</option>
+              </select>
+            </th>
+            <th>phones</th>
+            <th>
+              <select name="" id="region">
+                <option value="all">region</option>
+                <option value="tashkent">tashkent</option>
+                <option value="samarqand">samarqand</option>
+                <option value="jizzax">jizzax</option>
+              </select>
+            </th>
+            <th>
+              <select name="" id="budget">
+                <option value="all">budget</option>
+                <option value="minus">plus</option>
+                <option value="plus">minus</option>
+                <!-- Corrected typo -->
+              </select>
+            </th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

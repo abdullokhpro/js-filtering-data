@@ -1,0 +1,40 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  label {
+    display: block;
+  }
+
+  input {
+    padding: 10px;
+  }
+}
+
+.table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+
+  &__row {
+    border-bottom: 1px solid black;
+  }
+
+  th {
+    padding: 15px;
+    text-align: left;
+    background-color: #222;
+    color: #fff;
+  }
+
+  td {
+    padding: 15px;
+    text-align: left;
+  }
+}
